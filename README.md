@@ -1,1 +1,3 @@
 # Flight-Database
+
+Created a flight database as an Ordered Dictionary ADT, implemented using a Skip List, which stores (key, value) entries. Each key is a tuple: (origin, destination, date, time)and each value is (flightNumber, price). The  user  will  call  findFlights(origin, destination, date, time, timeFrame) to query a database. The method will return an ordered list of flights  with the departure times  less  than,  equal  to  and  greater  than  the  requested  departure  time,  within the given time  frame. Also can return a list of nodes of precessor or successor flights of a given key.
